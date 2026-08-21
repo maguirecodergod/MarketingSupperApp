@@ -1,0 +1,10 @@
+{
+  "success": "Thành công",
+  "error": "Đã xảy ra lỗi",
+  "warning": "Cảnh báo",
+  "info": "Thông tin",
+  "networkUnavailable": "Không thể kết nối máy chủ. Vui lòng kiểm tra mạng.",
+  "conflict": "Dữ liệu đã bị thay đổi bởi phiên làm việc khác.",
+  "rateLimit": "Yêu cầu quá nhanh. Vui lòng thử lại sau giây lát.",
+  "maintenance": "Hệ thống đang bảo trì theo kế hoạch."
+}

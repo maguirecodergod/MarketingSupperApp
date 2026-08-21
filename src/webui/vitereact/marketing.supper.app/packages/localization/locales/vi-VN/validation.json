@@ -1,0 +1,8 @@
+{
+  "invalidEmail": "Vui lòng nhập địa chỉ email hợp lệ",
+  "minCharacters": "Tối thiểu phải có {{min}} ký tự",
+  "maxCharacters": "Tối đa {{max}} ký tự",
+  "patternMismatch": "Định dạng không hợp lệ",
+  "passwordMismatch": "Mật khẩu xác nhận không khớp",
+  "fieldRequired": "Trường này không được để trống"
+}

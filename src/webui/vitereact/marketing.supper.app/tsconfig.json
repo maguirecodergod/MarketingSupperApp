@@ -2,6 +2,21 @@
   "files": [],
   "references": [
     { "path": "./tsconfig.app.json" },
-    { "path": "./tsconfig.node.json" }
+    { "path": "./tsconfig.node.json" },
+    { "path": "./packages/config" },
+    { "path": "./packages/api-contracts" },
+    { "path": "./packages/api" },
+    { "path": "./packages/query" },
+    { "path": "./packages/state" },
+    { "path": "./packages/theme" },
+    { "path": "./packages/localization" },
+    { "path": "./packages/forms" },
+    { "path": "./packages/ui" },
+    { "path": "./packages/auth" },
+    { "path": "./packages/observability" },
+    { "path": "./packages/feature-flags" },
+    { "path": "./packages/schemas" },
+    { "path": "./packages/eslint-config" },
+    { "path": "./apps/admin" }
   ]
 }

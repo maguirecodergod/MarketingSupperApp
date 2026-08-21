@@ -1,0 +1,9 @@
+{
+  "requiredField": "This field is required",
+  "optional": "(optional)",
+  "submitting": "Processing...",
+  "submit": "Submit",
+  "discardChanges": "Discard changes",
+  "unsavedChangesWarning": "You have unsaved changes. Are you sure you want to leave?",
+  "clearForm": "Clear form"
+}

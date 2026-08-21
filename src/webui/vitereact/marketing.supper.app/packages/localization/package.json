@@ -1,0 +1,19 @@
+{
+  "name": "@enterprise/localization",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "main": "./src/index.ts",
+  "types": "./src/index.ts",
+  "scripts": {
+    "typecheck": "tsc --noEmit"
+  },
+  "dependencies": {
+    "@enterprise/state": "workspace:*",
+    "@enterprise/observability": "workspace:*",
+    "i18next": "^24.2.2",
+    "react-i18next": "^15.4.1",
+    "react": "^19.0.0",
+    "react-dom": "^19.0.0"
+  }
+}

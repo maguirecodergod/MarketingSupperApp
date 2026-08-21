@@ -1,0 +1,9 @@
+{
+  "requiredField": "Trường này là bắt buộc",
+  "optional": "(tùy chọn)",
+  "submitting": "Đang xử lý...",
+  "submit": "Gửi",
+  "discardChanges": "Hủy các thay đổi",
+  "unsavedChangesWarning": "Bạn có thay đổi chưa được lưu. Bạn có chắc chắn muốn rời đi?",
+  "clearForm": "Làm mới biểu mẫu"
+}

@@ -1,0 +1,13 @@
+{
+  "totalItems": "Tổng cộng: {{count}} mục",
+  "rowsPerPage": "Số dòng mỗi trang:",
+  "pageOf": "Trang {{page}} / {{total}}",
+  "fetchingRecords": "Đang tải dữ liệu...",
+  "noRecords": "Không tìm thấy dữ liệu",
+  "noRecordsDesc": "Không có bản ghi nào khớp với điều kiện lọc.",
+  "selectAll": "Chọn tất cả",
+  "selectRow": "Chọn dòng này",
+  "sortedAscending": "Sắp xếp tăng dần",
+  "sortedDescending": "Sắp xếp giảm dần",
+  "clickToSort": "Nhấn để sắp xếp"
+}

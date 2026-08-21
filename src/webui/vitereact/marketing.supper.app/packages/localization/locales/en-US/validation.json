@@ -1,0 +1,8 @@
+{
+  "invalidEmail": "Please enter a valid email address",
+  "minCharacters": "Must be at least {{min}} characters",
+  "maxCharacters": "Must be at most {{max}} characters",
+  "patternMismatch": "Invalid format",
+  "passwordMismatch": "Passwords do not match",
+  "fieldRequired": "This field cannot be blank"
+}

@@ -1,0 +1,14 @@
+{
+  "name": "@enterprise/tsconfig",
+  "version": "1.0.0",
+  "private": true,
+  "files": [
+    "base.json",
+    "react.json",
+    "vite.json",
+    "node.json",
+    "library.json",
+    "storybook.json",
+    "playwright.json"
+  ]
+}

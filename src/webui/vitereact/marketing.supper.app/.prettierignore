@@ -1,0 +1,9 @@
+node_modules
+dist
+coverage
+playwright-report
+test-results
+storybook-static
+routeTree.gen.ts
+packages/api-contracts/src/generated
+pnpm-lock.yaml

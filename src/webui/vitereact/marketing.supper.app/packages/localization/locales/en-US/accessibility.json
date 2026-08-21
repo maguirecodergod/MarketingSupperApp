@@ -1,0 +1,9 @@
+{
+  "themeToggle": "Toggle light or dark theme (current: {{current}})",
+  "languageSelector": "Select display language (current: {{current}})",
+  "openSidebar": "Open sidebar navigation",
+  "closeSidebar": "Close sidebar navigation",
+  "dataGridTable": "Enterprise data grid table",
+  "paginationNav": "Pagination navigation",
+  "skipToContent": "Skip to main content"
+}

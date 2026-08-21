@@ -1,0 +1,10 @@
+{
+  "success": "Success",
+  "error": "An error occurred",
+  "warning": "Warning",
+  "info": "Information",
+  "networkUnavailable": "Unable to connect to server. Please check your network.",
+  "conflict": "Data was modified by another concurrent session.",
+  "rateLimit": "Too many requests. Please slow down and try again.",
+  "maintenance": "System is undergoing scheduled maintenance."
+}

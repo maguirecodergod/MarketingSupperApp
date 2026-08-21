@@ -1,0 +1,38 @@
+{
+  "name": "@enterprise/admin",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "tsc && vite build",
+    "typecheck": "tsc --noEmit"
+  },
+  "dependencies": {
+    "@enterprise/api": "workspace:*",
+    "@enterprise/api-contracts": "workspace:*",
+    "@enterprise/auth": "workspace:*",
+    "@enterprise/config": "workspace:*",
+    "@enterprise/feature-flags": "workspace:*",
+    "@enterprise/forms": "workspace:*",
+    "@enterprise/observability": "workspace:*",
+    "@enterprise/query": "workspace:*",
+    "@enterprise/schemas": "workspace:*",
+    "@enterprise/state": "workspace:*",
+    "@enterprise/ui": "workspace:*",
+    "@tanstack/react-query": "^5.66.0",
+    "@tanstack/react-router": "^1.111.0",
+    "lucide-react": "^1.16.0",
+    "react": "^19.0.0",
+    "react-dom": "^19.0.0",
+    "zod": "^3.24.2",
+    "zustand": "^5.0.3"
+  },
+  "devDependencies": {
+    "@enterprise/tsconfig": "workspace:*",
+    "@types/react": "^19.0.10",
+    "@types/react-dom": "^19.0.4",
+    "typescript": "^5.7.3",
+    "vite": "^6.1.0"
+  }
+}

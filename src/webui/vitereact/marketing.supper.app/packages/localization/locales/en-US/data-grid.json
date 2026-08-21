@@ -1,0 +1,13 @@
+{
+  "totalItems": "Total: {{count}} items",
+  "rowsPerPage": "Rows per page:",
+  "pageOf": "Page {{page}} of {{total}}",
+  "fetchingRecords": "Fetching records...",
+  "noRecords": "No records found",
+  "noRecordsDesc": "No data matches the current filter criteria.",
+  "selectAll": "Select all",
+  "selectRow": "Select this row",
+  "sortedAscending": "Sorted ascending",
+  "sortedDescending": "Sorted descending",
+  "clickToSort": "Click to sort"
+}

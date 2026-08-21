@@ -1,0 +1,9 @@
+{
+  "themeToggle": "Chuyển đổi giao diện sáng/tối (hiện tại: {{current}})",
+  "languageSelector": "Chọn ngôn ngữ hiển thị (hiện tại: {{current}})",
+  "openSidebar": "Mở thanh điều hướng bên",
+  "closeSidebar": "Đóng thanh điều hướng bên",
+  "dataGridTable": "Bảng dữ liệu doanh nghiệp",
+  "paginationNav": "Điều hướng trang",
+  "skipToContent": "Chuyển nhanh đến nội dung chính"
+}

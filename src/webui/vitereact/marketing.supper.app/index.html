@@ -1,10 +1,38 @@
 <!doctype html>
-<html lang="en">
+<html lang="vi-VN" dir="ltr">
   <head>
     <meta charset="UTF-8" />
     <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>marketing.supper.app</title>
+    <title>Enterprise Frontend Platform</title>
+    <script>
+      (function() {
+        try {
+          // Theme early bootstrap
+          var themeRaw = localStorage.getItem('enterprise_theme_preference');
+          var mode = 'system';
+          if (themeRaw) {
+            var parsed = JSON.parse(themeRaw);
+            mode = (typeof parsed === 'object' && parsed !== null) ? parsed.mode : parsed;
+          }
+          var isDark = mode === 'dark' || (mode === 'system' && window.matchMedia && window.matchMedia('(prefers-color-scheme: dark)').matches);
+          var resolved = isDark ? 'dark' : 'light';
+          document.documentElement.classList.add(resolved);
+          document.documentElement.setAttribute('data-theme', resolved);
+          document.documentElement.style.colorScheme = resolved;
+
+          // Locale early bootstrap
+          var localeRaw = localStorage.getItem('enterprise_locale_preference');
+          var locale = 'vi-VN';
+          if (localeRaw) {
+            var parsedLoc = JSON.parse(localeRaw);
+            locale = (typeof parsedLoc === 'object' && parsedLoc !== null) ? parsedLoc.locale : parsedLoc;
+          }
+          document.documentElement.lang = locale;
+          document.documentElement.setAttribute('data-locale', locale);
+        } catch (e) {}
+      })();
+    </script>
   </head>
   <body>
     <div id="root"></div>

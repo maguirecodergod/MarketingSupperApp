@@ -1,0 +1,15 @@
+{
+  "appName": "Quản Trị Doanh Nghiệp",
+  "dashboard": "Tổng quan",
+  "users": "Danh bạ người dùng",
+  "settings": "Cài đặt hệ thống",
+  "profile": "Hồ sơ của tôi",
+  "security": "Phiên bảo mật",
+  "preferences": "Tùy chọn giao diện",
+  "logout": "Đăng xuất",
+  "openMenu": "Mở menu điều hướng",
+  "closeMenu": "Đóng menu điều hướng",
+  "userMenu": "Menu người dùng",
+  "breadcrumb": "Đường dẫn",
+  "currentRole": "Vai trò hiện tại"
+}

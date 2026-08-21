@@ -1,0 +1,6 @@
+{
+  "name": "Marketing Supper App",
+  "description": "Enterprise Frontend Platform monorepo featuring strict boundary governance, TanStack Query/Table/Virtual/Form, OpenAPI-generated contracts, and OIDC RBAC admin portal.",
+  "permissions": [],
+  "capabilities": []
+}

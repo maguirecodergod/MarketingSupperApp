@@ -2,25 +2,39 @@
   "compilerOptions": {
     "tsBuildInfoFile": "./node_modules/.tmp/tsconfig.app.tsbuildinfo",
     "target": "es2023",
-    "lib": ["ES2023", "DOM"],
+    "lib": ["ES2023", "DOM", "DOM.Iterable"],
     "module": "esnext",
     "types": ["vite/client"],
-    "allowArbitraryExtensions": true,
     "skipLibCheck": true,
 
     /* Bundler mode */
     "moduleResolution": "bundler",
-    "allowImportingTsExtensions": true,
-    "verbatimModuleSyntax": true,
     "moduleDetection": "force",
     "noEmit": true,
     "jsx": "react-jsx",
 
-    /* Linting */
-    "noUnusedLocals": true,
-    "noUnusedParameters": true,
-    "erasableSyntaxOnly": true,
-    "noFallthroughCasesInSwitch": true
+    /* Strict typechecking */
+    "strict": true,
+    "noUnusedLocals": false,
+    "noUnusedParameters": false,
+    "noFallthroughCasesInSwitch": true,
+
+    "baseUrl": ".",
+    "paths": {
+      "@enterprise/config": ["packages/config/src/index.ts"],
+      "@enterprise/api-contracts": ["packages/api-contracts/src/index.ts"],
+      "@enterprise/api": ["packages/api/src/index.ts"],
+      "@enterprise/query": ["packages/query/src/index.ts"],
+      "@enterprise/state": ["packages/state/src/index.ts"],
+      "@enterprise/theme": ["packages/theme/src/index.ts"],
+      "@enterprise/localization": ["packages/localization/src/index.ts"],
+      "@enterprise/forms": ["packages/forms/src/index.ts"],
+      "@enterprise/ui": ["packages/ui/src/index.ts"],
+      "@enterprise/auth": ["packages/auth/src/index.ts"],
+      "@enterprise/observability": ["packages/observability/src/index.ts"],
+      "@enterprise/feature-flags": ["packages/feature-flags/src/index.ts"],
+      "@enterprise/schemas": ["packages/schemas/src/index.ts"]
+    }
   },
-  "include": ["src"]
+  "include": ["src/**/*"]
 }

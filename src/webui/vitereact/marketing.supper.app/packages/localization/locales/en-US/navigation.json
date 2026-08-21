@@ -1,0 +1,15 @@
+{
+  "appName": "Enterprise Admin",
+  "dashboard": "Dashboard",
+  "users": "User Directory",
+  "settings": "System Settings",
+  "profile": "My Profile",
+  "security": "Security Sessions",
+  "preferences": "UI Preferences",
+  "logout": "Sign Out",
+  "openMenu": "Open navigation menu",
+  "closeMenu": "Close navigation menu",
+  "userMenu": "User menu",
+  "breadcrumb": "Breadcrumb",
+  "currentRole": "Current Role"
+}
